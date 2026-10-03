@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_cjy_Hant_eng
+
+metadata:
+  srclang: cjy_Hant
+  tgtlang: eng

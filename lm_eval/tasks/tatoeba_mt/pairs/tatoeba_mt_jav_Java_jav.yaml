@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_jav_Java_jav
+
+metadata:
+  srclang: jav_Java
+  tgtlang: jav

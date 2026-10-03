@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_deu_srp_Cyrl
+
+metadata:
+  srclang: deu
+  tgtlang: srp_Cyrl

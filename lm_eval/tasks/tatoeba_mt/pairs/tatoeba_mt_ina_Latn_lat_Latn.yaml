@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_ina_Latn_lat_Latn
+
+metadata:
+  srclang: ina_Latn
+  tgtlang: lat_Latn

@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_pol_yue_Hant
+
+metadata:
+  srclang: pol
+  tgtlang: yue_Hant

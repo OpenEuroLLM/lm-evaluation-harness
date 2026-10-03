@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_ota_Yezi_eng
+
+metadata:
+  srclang: ota_Yezi
+  tgtlang: eng

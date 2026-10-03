@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_nov_Latn_eng
+
+metadata:
+  srclang: nov_Latn
+  tgtlang: eng

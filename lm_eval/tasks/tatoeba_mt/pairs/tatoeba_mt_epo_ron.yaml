@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_epo_ron
+
+metadata:
+  srclang: epo
+  tgtlang: ron

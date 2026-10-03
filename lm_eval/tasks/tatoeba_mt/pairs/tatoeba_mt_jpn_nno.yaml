@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_jpn_nno
+
+metadata:
+  srclang: jpn
+  tgtlang: nno

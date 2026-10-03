@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_tur_heb
+
+metadata:
+  srclang: tur
+  tgtlang: heb

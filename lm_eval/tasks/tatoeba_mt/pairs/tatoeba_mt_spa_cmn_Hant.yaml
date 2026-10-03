@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_spa_cmn_Hant
+
+metadata:
+  srclang: spa
+  tgtlang: cmn_Hant

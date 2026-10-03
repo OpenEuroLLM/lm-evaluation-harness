@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_epo_tgl_Latn
+
+metadata:
+  srclang: epo
+  tgtlang: tgl_Latn

@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_ber_Tfng_fra
+
+metadata:
+  srclang: ber_Tfng
+  tgtlang: fra

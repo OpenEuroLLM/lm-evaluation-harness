@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_mar_hin
+
+metadata:
+  srclang: mar
+  tgtlang: hin

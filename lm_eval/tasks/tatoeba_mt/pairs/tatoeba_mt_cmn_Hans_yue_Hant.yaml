@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_cmn_Hans_yue_Hant
+
+metadata:
+  srclang: cmn_Hans
+  tgtlang: yue_Hant

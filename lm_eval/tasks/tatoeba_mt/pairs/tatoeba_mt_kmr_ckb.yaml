@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_kmr_ckb
+
+metadata:
+  srclang: kmr
+  tgtlang: ckb

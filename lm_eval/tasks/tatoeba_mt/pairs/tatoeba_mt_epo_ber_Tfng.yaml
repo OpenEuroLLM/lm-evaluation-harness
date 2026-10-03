@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_epo_ber_Tfng
+
+metadata:
+  srclang: epo
+  tgtlang: ber_Tfng

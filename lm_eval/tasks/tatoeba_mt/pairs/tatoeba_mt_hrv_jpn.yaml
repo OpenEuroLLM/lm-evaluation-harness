@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_hrv_jpn
+
+metadata:
+  srclang: hrv
+  tgtlang: jpn

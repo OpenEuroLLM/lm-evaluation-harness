@@ -1,0 +1,29 @@
+output_type: generate_until
+# Prompt adapted from: wmt24pp_doc
+# Territory code was used in the original prompt; they are harder to fish in natural language so I dropped it
+doc_to_text: "You are a professional {{src_lang}} to {{tgt_lang}} ({{tgt_code}}) translator, tasked with providing translations suitable for use. Your goal is to accurately convey the meaning and nuances of the original {{src_lang}} text while adhering to {{tgt_lang}} grammar, vocabulary, and cultural sensitivities.\n\nPlease translate the following {{src_lang}} text into {{tgt_lang}} ({{tgt_code}}):\n\n{{input_text}}\n\nProduce only the {{tgt_lang}} translation, without any additional explanations or commentary:\n\n"
+doc_to_target: target_text
+custom_dataset: !function utils.load_tatoeba
+
+task: tatoeba_mt
+
+test_split: test
+target_delimiter: ''
+generation_kwargs: # Copied over from opensubtitles_multi40
+  until:
+    - "\n"
+    - "<|im_end|>"
+    - "</s>"
+    - "<|endoftest|>"
+    - "<|eot_id|>"
+    - "<|end_of_text|>"
+
+metric_list:
+  - metric: chrf
+    aggregation: chrf
+    higher_is_better: true
+
+metadata:
+  version: 1
+  dataset_dir: Helsinki-NLP/tatoeba_mt
+  split: test

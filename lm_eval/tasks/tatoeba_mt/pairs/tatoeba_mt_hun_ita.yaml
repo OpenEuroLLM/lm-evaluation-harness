@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_hun_ita
+
+metadata:
+  srclang: hun
+  tgtlang: ita

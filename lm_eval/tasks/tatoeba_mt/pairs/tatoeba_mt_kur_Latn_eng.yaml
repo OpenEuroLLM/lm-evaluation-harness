@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_kur_Latn_eng
+
+metadata:
+  srclang: kur_Latn
+  tgtlang: eng

@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_deu_gos
+
+metadata:
+  srclang: deu
+  tgtlang: gos

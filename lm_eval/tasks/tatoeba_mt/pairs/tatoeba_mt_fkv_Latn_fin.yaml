@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_fkv_Latn_fin
+
+metadata:
+  srclang: fkv_Latn
+  tgtlang: fin

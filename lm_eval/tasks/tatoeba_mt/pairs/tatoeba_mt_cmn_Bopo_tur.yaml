@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_cmn_Bopo_tur
+
+metadata:
+  srclang: cmn_Bopo
+  tgtlang: tur

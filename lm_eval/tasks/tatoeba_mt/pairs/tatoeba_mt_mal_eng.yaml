@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_mal_eng
+
+metadata:
+  srclang: mal
+  tgtlang: eng

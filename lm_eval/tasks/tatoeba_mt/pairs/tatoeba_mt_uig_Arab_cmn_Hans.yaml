@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_uig_Arab_cmn_Hans
+
+metadata:
+  srclang: uig_Arab
+  tgtlang: cmn_Hans

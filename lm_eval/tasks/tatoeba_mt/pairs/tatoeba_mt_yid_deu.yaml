@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_yid_deu
+
+metadata:
+  srclang: yid
+  tgtlang: deu

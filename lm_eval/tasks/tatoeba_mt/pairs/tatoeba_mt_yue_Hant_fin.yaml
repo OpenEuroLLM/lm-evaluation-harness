@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_yue_Hant_fin
+
+metadata:
+  srclang: yue_Hant
+  tgtlang: fin

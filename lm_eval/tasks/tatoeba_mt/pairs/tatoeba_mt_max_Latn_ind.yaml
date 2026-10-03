@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_max_Latn_ind
+
+metadata:
+  srclang: max_Latn
+  tgtlang: ind

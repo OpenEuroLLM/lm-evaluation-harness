@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_ita_ron
+
+metadata:
+  srclang: ita
+  tgtlang: ron

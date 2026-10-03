@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_lfn_Cyrl_deu
+
+metadata:
+  srclang: lfn_Cyrl
+  tgtlang: deu

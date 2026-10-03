@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_ckb_sdh
+
+metadata:
+  srclang: ckb
+  tgtlang: sdh

@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_spa_nld
+
+metadata:
+  srclang: spa
+  tgtlang: nld

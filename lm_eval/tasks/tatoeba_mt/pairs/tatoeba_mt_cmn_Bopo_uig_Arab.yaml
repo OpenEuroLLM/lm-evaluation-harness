@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_cmn_Bopo_uig_Arab
+
+metadata:
+  srclang: cmn_Bopo
+  tgtlang: uig_Arab

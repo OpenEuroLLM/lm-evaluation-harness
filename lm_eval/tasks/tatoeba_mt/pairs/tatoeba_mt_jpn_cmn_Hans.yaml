@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_jpn_cmn_Hans
+
+metadata:
+  srclang: jpn
+  tgtlang: cmn_Hans

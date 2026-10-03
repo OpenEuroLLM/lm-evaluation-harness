@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_ota_Rohg_eng
+
+metadata:
+  srclang: ota_Rohg
+  tgtlang: eng

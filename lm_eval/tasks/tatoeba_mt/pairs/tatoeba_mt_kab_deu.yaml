@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_kab_deu
+
+metadata:
+  srclang: kab
+  tgtlang: deu

@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_jpn_Yiii_toki_Latn
+
+metadata:
+  srclang: jpn_Yiii
+  tgtlang: toki_Latn

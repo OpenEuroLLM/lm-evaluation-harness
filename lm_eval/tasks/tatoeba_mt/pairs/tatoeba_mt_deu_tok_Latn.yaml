@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_deu_tok_Latn
+
+metadata:
+  srclang: deu
+  tgtlang: tok_Latn

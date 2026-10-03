@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_wuu_cmn_Hans
+
+metadata:
+  srclang: wuu
+  tgtlang: cmn_Hans

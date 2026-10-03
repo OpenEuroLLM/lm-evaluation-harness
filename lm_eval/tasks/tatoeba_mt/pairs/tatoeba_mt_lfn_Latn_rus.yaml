@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_lfn_Latn_rus
+
+metadata:
+  srclang: lfn_Latn
+  tgtlang: rus

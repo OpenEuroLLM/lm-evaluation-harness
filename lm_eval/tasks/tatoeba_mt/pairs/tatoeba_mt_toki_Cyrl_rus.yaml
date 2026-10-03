@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_toki_Cyrl_rus
+
+metadata:
+  srclang: toki_Cyrl
+  tgtlang: rus

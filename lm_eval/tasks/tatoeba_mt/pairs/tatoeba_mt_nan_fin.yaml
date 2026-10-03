@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_nan_fin
+
+metadata:
+  srclang: nan
+  tgtlang: fin

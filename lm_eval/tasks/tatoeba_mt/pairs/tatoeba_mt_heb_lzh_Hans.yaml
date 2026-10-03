@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_heb_lzh_Hans
+
+metadata:
+  srclang: heb
+  tgtlang: lzh_Hans

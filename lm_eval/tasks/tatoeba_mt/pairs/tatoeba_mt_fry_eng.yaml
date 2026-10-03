@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_fry_eng
+
+metadata:
+  srclang: fry
+  tgtlang: eng

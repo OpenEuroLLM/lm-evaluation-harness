@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_jpn_tlh_Latn
+
+metadata:
+  srclang: jpn
+  tgtlang: tlh_Latn

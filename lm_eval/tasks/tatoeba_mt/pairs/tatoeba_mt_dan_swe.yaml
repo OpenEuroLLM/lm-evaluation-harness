@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_dan_swe
+
+metadata:
+  srclang: dan
+  tgtlang: swe

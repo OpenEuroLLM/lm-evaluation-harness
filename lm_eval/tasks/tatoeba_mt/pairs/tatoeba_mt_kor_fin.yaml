@@ -1,0 +1,7 @@
+include: ../tatoeba_mt.yaml
+
+task: tatoeba_mt_kor_fin
+
+metadata:
+  srclang: kor
+  tgtlang: fin
