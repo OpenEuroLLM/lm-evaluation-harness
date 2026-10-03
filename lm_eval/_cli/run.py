@@ -241,6 +241,17 @@ class Run(SubCommand):
             metavar="<path>",
             help="Additional directory for external tasks",
         )
+        task_group.add_argument(
+            "--plugins",
+            default=None,
+            nargs="+",
+            action=SplitArgs,
+            metavar="<module>",
+            help="Comma-separated plugin modules to import before evaluation so their "
+            "@register_* decorators run (models, filters, metrics, aggregations). Use "
+            "for local or unpublished components; pip-installed packages that declare "
+            "an 'lm_eval.*' entry point are discovered automatically.",
+        )
 
         # Logging and Tracking
         logging_group = self._parser.add_argument_group("logging and tracking")
@@ -357,6 +368,16 @@ class Run(SubCommand):
 
         # Create and validate config (most validation now occurs in EvaluationConfig)
         cfg = EvaluatorConfig.from_cli(args)
+
+        # Import explicit plugin modules (--plugins) so their @register_* decorators
+        # run before task discovery or any model/filter/metric name is resolved.
+        # Registration is process-global, so this belongs here rather than inside
+        # simple_evaluate. Installed entry-point plugins need no wiring: they are
+        # discovered lazily by the registry getters.
+        if cfg.plugins:
+            from lm_eval.api.registry import import_plugins
+
+            import_plugins(cfg.plugins)
 
         from lm_eval import simple_evaluate
         from lm_eval.loggers import EvaluationTracker, TrackioLogger, WandbLogger
